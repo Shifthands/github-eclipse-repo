@@ -5,7 +5,7 @@
 <head>
 <style>
 .background1 {
-	background-image: url(/static/imgs/pic008.jpg);
+	background-image: url(/static/imgs/pic009.jpg);
 	background-color: #000000;
 }
 </style>
@@ -19,8 +19,8 @@
 			width : '10px',
 			opacity : '0.2',
 			left : '1000px',
-			top : '20px'
-		}, 30000);
+			top : '500px'
+		}, 5000);
 		//$('#waiting')[0].play();
 		$("#moviebox").show('slow');
 		$("#movie")[0].play();
@@ -69,7 +69,7 @@
 			-郭鹏 </span><br /> <br /> 西风吹皱东方河，万年地球白发多。 <br /> 流浪星际家何去，满船清梦出银河。
 	</div>
 	<img src="/static/imgs/earth.png"
-		style="position: absolute; left: 10px; bottom: 10px; width: 150px"
+		style="position: absolute; left: 10px; bottom: 500px; width: 150px"
 		onclick="run(this);return false" 
 		title="点击后，开始流浪 ！"
 		/>
